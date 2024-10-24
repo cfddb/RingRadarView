@@ -1,0 +1,634 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		43D82ECF2CCA3F7300ABCF27 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 43D82ECE2CCA3F7300ABCF27 /* AppDelegate.m */; };
+		43D82ED22CCA3F7300ABCF27 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 43D82ED12CCA3F7300ABCF27 /* SceneDelegate.m */; };
+		43D82ED52CCA3F7300ABCF27 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43D82ED42CCA3F7300ABCF27 /* ViewController.m */; };
+		43D82ED82CCA3F7300ABCF27 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 43D82ED72CCA3F7300ABCF27 /* Base */; };
+		43D82EDA2CCA3F7500ABCF27 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43D82ED92CCA3F7500ABCF27 /* Assets.xcassets */; };
+		43D82EDD2CCA3F7500ABCF27 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 43D82EDC2CCA3F7500ABCF27 /* Base */; };
+		43D82EE02CCA3F7500ABCF27 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 43D82EDF2CCA3F7500ABCF27 /* main.m */; };
+		43D82EEA2CCA3F7500ABCF27 /* RingRadarViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 43D82EE92CCA3F7500ABCF27 /* RingRadarViewTests.m */; };
+		43D82EF42CCA3F7500ABCF27 /* RingRadarViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 43D82EF32CCA3F7500ABCF27 /* RingRadarViewUITests.m */; };
+		43D82EF62CCA3F7500ABCF27 /* RingRadarViewUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 43D82EF52CCA3F7500ABCF27 /* RingRadarViewUITestsLaunchTests.m */; };
+		43D82F082CCA3FC600ABCF27 /* RadarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 43D82F032CCA3FC600ABCF27 /* RadarView.m */; };
+		43D82F092CCA3FC600ABCF27 /* GradientRingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 43D82F062CCA3FC600ABCF27 /* GradientRingView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		43D82EE62CCA3F7500ABCF27 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 43D82EC22CCA3F7300ABCF27 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 43D82EC92CCA3F7300ABCF27;
+			remoteInfo = RingRadarView;
+		};
+		43D82EF02CCA3F7500ABCF27 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 43D82EC22CCA3F7300ABCF27 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 43D82EC92CCA3F7300ABCF27;
+			remoteInfo = RingRadarView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		43D82ECA2CCA3F7300ABCF27 /* RingRadarView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RingRadarView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		43D82ECD2CCA3F7300ABCF27 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		43D82ECE2CCA3F7300ABCF27 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		43D82ED02CCA3F7300ABCF27 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		43D82ED12CCA3F7300ABCF27 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		43D82ED32CCA3F7300ABCF27 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		43D82ED42CCA3F7300ABCF27 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		43D82ED72CCA3F7300ABCF27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		43D82ED92CCA3F7500ABCF27 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		43D82EDC2CCA3F7500ABCF27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		43D82EDE2CCA3F7500ABCF27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		43D82EDF2CCA3F7500ABCF27 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		43D82EE52CCA3F7500ABCF27 /* RingRadarViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RingRadarViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		43D82EE92CCA3F7500ABCF27 /* RingRadarViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RingRadarViewTests.m; sourceTree = "<group>"; };
+		43D82EEF2CCA3F7500ABCF27 /* RingRadarViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RingRadarViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		43D82EF32CCA3F7500ABCF27 /* RingRadarViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RingRadarViewUITests.m; sourceTree = "<group>"; };
+		43D82EF52CCA3F7500ABCF27 /* RingRadarViewUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RingRadarViewUITestsLaunchTests.m; sourceTree = "<group>"; };
+		43D82F022CCA3FC600ABCF27 /* RadarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RadarView.h; sourceTree = "<group>"; };
+		43D82F032CCA3FC600ABCF27 /* RadarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RadarView.m; sourceTree = "<group>"; };
+		43D82F052CCA3FC600ABCF27 /* GradientRingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GradientRingView.h; sourceTree = "<group>"; };
+		43D82F062CCA3FC600ABCF27 /* GradientRingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GradientRingView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		43D82EC72CCA3F7300ABCF27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43D82EE22CCA3F7500ABCF27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43D82EEC2CCA3F7500ABCF27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		43D82EC12CCA3F7300ABCF27 = {
+			isa = PBXGroup;
+			children = (
+				43D82ECC2CCA3F7300ABCF27 /* RingRadarView */,
+				43D82EE82CCA3F7500ABCF27 /* RingRadarViewTests */,
+				43D82EF22CCA3F7500ABCF27 /* RingRadarViewUITests */,
+				43D82ECB2CCA3F7300ABCF27 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		43D82ECB2CCA3F7300ABCF27 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				43D82ECA2CCA3F7300ABCF27 /* RingRadarView.app */,
+				43D82EE52CCA3F7500ABCF27 /* RingRadarViewTests.xctest */,
+				43D82EEF2CCA3F7500ABCF27 /* RingRadarViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		43D82ECC2CCA3F7300ABCF27 /* RingRadarView */ = {
+			isa = PBXGroup;
+			children = (
+				43D82F072CCA3FC600ABCF27 /* GradientRingView */,
+				43D82F042CCA3FC600ABCF27 /* RadarView */,
+				43D82ECD2CCA3F7300ABCF27 /* AppDelegate.h */,
+				43D82ECE2CCA3F7300ABCF27 /* AppDelegate.m */,
+				43D82ED02CCA3F7300ABCF27 /* SceneDelegate.h */,
+				43D82ED12CCA3F7300ABCF27 /* SceneDelegate.m */,
+				43D82ED32CCA3F7300ABCF27 /* ViewController.h */,
+				43D82ED42CCA3F7300ABCF27 /* ViewController.m */,
+				43D82ED62CCA3F7300ABCF27 /* Main.storyboard */,
+				43D82ED92CCA3F7500ABCF27 /* Assets.xcassets */,
+				43D82EDB2CCA3F7500ABCF27 /* LaunchScreen.storyboard */,
+				43D82EDE2CCA3F7500ABCF27 /* Info.plist */,
+				43D82EDF2CCA3F7500ABCF27 /* main.m */,
+			);
+			path = RingRadarView;
+			sourceTree = "<group>";
+		};
+		43D82EE82CCA3F7500ABCF27 /* RingRadarViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				43D82EE92CCA3F7500ABCF27 /* RingRadarViewTests.m */,
+			);
+			path = RingRadarViewTests;
+			sourceTree = "<group>";
+		};
+		43D82EF22CCA3F7500ABCF27 /* RingRadarViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				43D82EF32CCA3F7500ABCF27 /* RingRadarViewUITests.m */,
+				43D82EF52CCA3F7500ABCF27 /* RingRadarViewUITestsLaunchTests.m */,
+			);
+			path = RingRadarViewUITests;
+			sourceTree = "<group>";
+		};
+		43D82F042CCA3FC600ABCF27 /* RadarView */ = {
+			isa = PBXGroup;
+			children = (
+				43D82F022CCA3FC600ABCF27 /* RadarView.h */,
+				43D82F032CCA3FC600ABCF27 /* RadarView.m */,
+			);
+			path = RadarView;
+			sourceTree = "<group>";
+		};
+		43D82F072CCA3FC600ABCF27 /* GradientRingView */ = {
+			isa = PBXGroup;
+			children = (
+				43D82F052CCA3FC600ABCF27 /* GradientRingView.h */,
+				43D82F062CCA3FC600ABCF27 /* GradientRingView.m */,
+			);
+			path = GradientRingView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		43D82EC92CCA3F7300ABCF27 /* RingRadarView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 43D82EF92CCA3F7500ABCF27 /* Build configuration list for PBXNativeTarget "RingRadarView" */;
+			buildPhases = (
+				43D82EC62CCA3F7300ABCF27 /* Sources */,
+				43D82EC72CCA3F7300ABCF27 /* Frameworks */,
+				43D82EC82CCA3F7300ABCF27 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RingRadarView;
+			productName = RingRadarView;
+			productReference = 43D82ECA2CCA3F7300ABCF27 /* RingRadarView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		43D82EE42CCA3F7500ABCF27 /* RingRadarViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 43D82EFC2CCA3F7500ABCF27 /* Build configuration list for PBXNativeTarget "RingRadarViewTests" */;
+			buildPhases = (
+				43D82EE12CCA3F7500ABCF27 /* Sources */,
+				43D82EE22CCA3F7500ABCF27 /* Frameworks */,
+				43D82EE32CCA3F7500ABCF27 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				43D82EE72CCA3F7500ABCF27 /* PBXTargetDependency */,
+			);
+			name = RingRadarViewTests;
+			productName = RingRadarViewTests;
+			productReference = 43D82EE52CCA3F7500ABCF27 /* RingRadarViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		43D82EEE2CCA3F7500ABCF27 /* RingRadarViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 43D82EFF2CCA3F7500ABCF27 /* Build configuration list for PBXNativeTarget "RingRadarViewUITests" */;
+			buildPhases = (
+				43D82EEB2CCA3F7500ABCF27 /* Sources */,
+				43D82EEC2CCA3F7500ABCF27 /* Frameworks */,
+				43D82EED2CCA3F7500ABCF27 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				43D82EF12CCA3F7500ABCF27 /* PBXTargetDependency */,
+			);
+			name = RingRadarViewUITests;
+			productName = RingRadarViewUITests;
+			productReference = 43D82EEF2CCA3F7500ABCF27 /* RingRadarViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		43D82EC22CCA3F7300ABCF27 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					43D82EC92CCA3F7300ABCF27 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					43D82EE42CCA3F7500ABCF27 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 43D82EC92CCA3F7300ABCF27;
+					};
+					43D82EEE2CCA3F7500ABCF27 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 43D82EC92CCA3F7300ABCF27;
+					};
+				};
+			};
+			buildConfigurationList = 43D82EC52CCA3F7300ABCF27 /* Build configuration list for PBXProject "RingRadarView" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 43D82EC12CCA3F7300ABCF27;
+			productRefGroup = 43D82ECB2CCA3F7300ABCF27 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				43D82EC92CCA3F7300ABCF27 /* RingRadarView */,
+				43D82EE42CCA3F7500ABCF27 /* RingRadarViewTests */,
+				43D82EEE2CCA3F7500ABCF27 /* RingRadarViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		43D82EC82CCA3F7300ABCF27 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43D82EDA2CCA3F7500ABCF27 /* Assets.xcassets in Resources */,
+				43D82EDD2CCA3F7500ABCF27 /* Base in Resources */,
+				43D82ED82CCA3F7300ABCF27 /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43D82EE32CCA3F7500ABCF27 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43D82EED2CCA3F7500ABCF27 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		43D82EC62CCA3F7300ABCF27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43D82ED52CCA3F7300ABCF27 /* ViewController.m in Sources */,
+				43D82F082CCA3FC600ABCF27 /* RadarView.m in Sources */,
+				43D82ECF2CCA3F7300ABCF27 /* AppDelegate.m in Sources */,
+				43D82EE02CCA3F7500ABCF27 /* main.m in Sources */,
+				43D82F092CCA3FC600ABCF27 /* GradientRingView.m in Sources */,
+				43D82ED22CCA3F7300ABCF27 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43D82EE12CCA3F7500ABCF27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43D82EEA2CCA3F7500ABCF27 /* RingRadarViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43D82EEB2CCA3F7500ABCF27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43D82EF62CCA3F7500ABCF27 /* RingRadarViewUITestsLaunchTests.m in Sources */,
+				43D82EF42CCA3F7500ABCF27 /* RingRadarViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		43D82EE72CCA3F7500ABCF27 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 43D82EC92CCA3F7300ABCF27 /* RingRadarView */;
+			targetProxy = 43D82EE62CCA3F7500ABCF27 /* PBXContainerItemProxy */;
+		};
+		43D82EF12CCA3F7500ABCF27 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 43D82EC92CCA3F7300ABCF27 /* RingRadarView */;
+			targetProxy = 43D82EF02CCA3F7500ABCF27 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		43D82ED62CCA3F7300ABCF27 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				43D82ED72CCA3F7300ABCF27 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		43D82EDB2CCA3F7500ABCF27 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				43D82EDC2CCA3F7500ABCF27 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		43D82EF72CCA3F7500ABCF27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		43D82EF82CCA3F7500ABCF27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		43D82EFA2CCA3F7500ABCF27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CJ7Y2W2HT4;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RingRadarView/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.db.RingRadarView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		43D82EFB2CCA3F7500ABCF27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CJ7Y2W2HT4;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RingRadarView/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.db.RingRadarView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		43D82EFD2CCA3F7500ABCF27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.db.RingRadarViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RingRadarView.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/RingRadarView";
+			};
+			name = Debug;
+		};
+		43D82EFE2CCA3F7500ABCF27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.db.RingRadarViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RingRadarView.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/RingRadarView";
+			};
+			name = Release;
+		};
+		43D82F002CCA3F7500ABCF27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.db.RingRadarViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RingRadarView;
+			};
+			name = Debug;
+		};
+		43D82F012CCA3F7500ABCF27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.db.RingRadarViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RingRadarView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		43D82EC52CCA3F7300ABCF27 /* Build configuration list for PBXProject "RingRadarView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43D82EF72CCA3F7500ABCF27 /* Debug */,
+				43D82EF82CCA3F7500ABCF27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		43D82EF92CCA3F7500ABCF27 /* Build configuration list for PBXNativeTarget "RingRadarView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43D82EFA2CCA3F7500ABCF27 /* Debug */,
+				43D82EFB2CCA3F7500ABCF27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		43D82EFC2CCA3F7500ABCF27 /* Build configuration list for PBXNativeTarget "RingRadarViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43D82EFD2CCA3F7500ABCF27 /* Debug */,
+				43D82EFE2CCA3F7500ABCF27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		43D82EFF2CCA3F7500ABCF27 /* Build configuration list for PBXNativeTarget "RingRadarViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43D82F002CCA3F7500ABCF27 /* Debug */,
+				43D82F012CCA3F7500ABCF27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 43D82EC22CCA3F7300ABCF27 /* Project object */;
+}
